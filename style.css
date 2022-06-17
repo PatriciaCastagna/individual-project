@@ -1,0 +1,81 @@
+/* área principal  */
+.bg-imagem {
+    height: 75vw;
+    background-image: url(img/vegan4.jpg);
+  
+    background-size: cover;
+  }
+  
+  .bg-imagem p{
+    font-size: 4vw; /* vh */
+    text-shadow: 4px 4px 8px black;
+  }
+
+  
+.card-body{
+ 
+  text-align: center;
+}
+
+
+h2{
+  font-style: italic;
+  font-size: 1vw;
+  color: black;
+  text-shadow: 4px 4px 8px black;
+
+}
+
+.about-text{
+  font-style: italic;
+  font-size: 1vw;
+  color: white;
+  text-align: center;
+
+}
+
+
+.form, .main-title, .text-time, .formLabel{
+  margin-top: 50px;
+}
+
+.container-about, .nav-top, .navbar-brand{
+  background-color: #93ba93;
+  font-size: 2vw; /* vh */
+  text-shadow: 4px 4px 8px black;
+
+  
+}
+
+.text-time {
+  color: white;
+}
+
+
+.container-form {
+  background-color: #DCDCDC;
+  margin-top: 50px;
+  text-shadow: 4px 4px 8px black;
+}
+
+footer {
+
+  margin-top: 50px;
+
+}
+
+.container-form{
+
+  margin-top: 100px;
+
+}
+
+/* validações  */
+
+span{
+  text-align: center;
+ 
+
+  background: orangered;
+}
+

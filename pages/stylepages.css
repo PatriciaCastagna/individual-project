@@ -1,0 +1,27 @@
+/*Style pages*/
+
+.nav-top{
+    font-size: 2vw; /* vh */
+    text-shadow: 4px 4px 8px white;
+    text-align: center;
+  
+  }
+
+ footer{
+   background-color: #3CB371;
+   padding: 20px;
+ }
+
+main{
+  height: 100%;
+}
+.container{
+  height: auto;
+}
+.rounded{
+  height: 50%;
+}
+h6, p{
+  text-align: center;
+}
+

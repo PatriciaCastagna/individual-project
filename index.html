@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Espaço Veg</title>
+  <!-- CSS only -->
+  <!-- JavaScript Bundle with Popper -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- CDN Icons Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+</head>
+
+<body>
+
+
+  <header class="">
+    <div class="w3-top">
+
+      <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off">
+
+        <a href="#" class="w3-bar-item w3-button">Home</a>
+
+        <a href="#products" class="w3-bar-item w3-button">Products</a>
+
+        <a href="#abt" class="w3-bar-item w3-button">About</a>
+
+        <a href="#contacts" class="w3-bar-item w3-button">Contact</a>
+
+
+      </div>
+
+    </div>
+
+
+
+  </header>
+  <main>
+
+    <section class="d-flex align-items-center text-center text-white bg-imagem">
+
+      <div class="container-fluid ">
+
+        <p>
+          Nature is more beautiful alive!
+        </p>
+
+      </div>
+
+
+    </section>
+
+
+
+    <div id="prod">
+
+      <div class="container" id="products">
+
+        <div class="row">
+
+          <div class="col-12">
+
+            <h2 class="main-title text-center">
+              KNOW OUR PRODUCTS
+            </h2>
+
+          </div>
+
+          <div class="col-md-4 shadow p-3 mb-5 rounded">
+
+            <div class="card h-100">
+              <img src="img/market.jpg" class="card-img-top1" alt="">
+              <div class="card-body">
+
+                <h5 class="card-title">Food</h5>
+
+                <p class="card-text">click here and discover all our products in the clothing area.</p>
+                <a href="pages/food.html" class="btn btn-outline-success" target="_blank">
+                  Learn more
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-4 shadow p-3 mb-5 rounded">
+            <div class="card h-100">
+
+              <img src="img/vest.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Garment</h5>
+                <p class="card-text">click here and discover all our products in the food sector.</p>
+                <a href="pages/clothing.html" class="btn btn-outline-success" target="_blank">
+                  Learn more
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-4 shadow p-3 mb-5 rounded">
+
+            <div class="card">
+              <img class="card-img-top" src="img/beauty3.jpg" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Beauty</h5>
+                <p class="card-text">click here and discover all our products in the clothing area beauty.</p>
+                <a href="pages/beauty.html" class="btn btn-outline-success" target="_blank">
+                  Learn more
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div id="abt">
+      <div class="container container-about rounded">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="main-title text-center">ABOUT US</h2>
+            <p>
+            <p>
+
+            <p class="about-text">
+
+              It is a store that sells healthy products in general.
+              Therefore, it presents from gluten or lactose-free foods, to vegans and vegetarians.
+              The main focus is on food, and most of the products sold are vegetarian.
+              It is a purely virtual market that is based in Brazil.
+
+            <p>
+            <p>
+            </p>
+
+
+
+            <div class="container">
+
+              <div class="row">
+
+                <div class="text-center">
+
+                  <img src="img/market2.jpg" class="rounded" alt="...">
+
+                  <div class="row text-time">
+
+                    <h3>Opening Hours
+                      <p>
+                      <p>Mon & Tue CLOSED</p>
+                      <p>Wednesday 10.00 - 24.00</p>
+                      <p>Thursday 10:00 - 24:00</p>
+                      <p>Friday 10:00 - 24:00</p>
+                    </h3>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <section class="container container-form mt-5" id="contacts">
+      <div class="row text-center">
+        <h1>
+          Make your registration
+        </h1>
+        <p>
+
+        <span id="error-data" class="erro"></span>
+                 
+      </div>
+     
+
+           
+
+      <!-- Formulario -->
+
+
+      <form class="row g-3 formulario" action="" method="POST" id="loginForm">
+
+       
+
+        <div class="col-md-6">
+          <label for="Fname" class="form-label"> First name </label>
+          <input type="text" class="form-control" id="Fname" name="Fname">
+         
+        </div>
+        
+
+        <div class="col-md-6">
+          <label for="Lname" class="form-label"> Last name </label>
+          <input type="text" class="form-control" id="Lname" name="Lname">
+          
+        </div>
+
+        <div class="col-md-6">
+          <label for="email" class="form-label">Email</label>
+          <input type="text" class="form-control" name="email">
+         
+          <small></small>
+
+        </div>
+
+        <div class="col-6">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="adress" name="adress" placeholder="1234 Main St">
+         
+        </div>
+
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="city" name="city">
+          
+        </div>
+
+        <div class="col-md-6">
+          <label for="inputState" class="form-label">State</label>
+          <input type="text" class="form-control" id="inputState" name="inputState">
+          
+        </div>
+
+        <div class="col-md-6">
+          <label for="password" class="form-label">Password</label>
+          <input type="text" class="form-control" id="password" name="password">
+          
+        </div>
+
+        <div class="col-md-6">
+          <label for="password2" class="form-label">Repeat Password</label>
+          <input type="text" class="form-control" id="password2" name="password2">
+          
+        </div>
+
+
+
+        <div class="col-12">
+          <button type="submit" class="btn btn-outline-success" id="clickButton" >Sign in</button>
+        </div>
+
+        
+      </form>
+
+      <ul class="items">
+
+
+      </ul>
+
+    </section>
+
+
+  </main>
+  <footer class="w3-center w3-black w3-padding-48 w3-large">
+
+
+  </footer>
+  <script type="text/javascript" src="script.js"></script>
+
+
+</body>
+
+</html>
