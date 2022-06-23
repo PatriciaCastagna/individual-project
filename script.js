@@ -36,16 +36,22 @@ salvarForm.addEventListener ("click", function(event){
          return;
  
        
-   }else{    
-      let nValue = [nameValue];
-      let lValue = [nameLvalue];
-      let endValue = [end];
-      let sValue = [stateValue];
-      let cidValue = [cid];
-      let paValue = [passValue];
-      let paValue2 = [passValue2];
+   }else{ 
+      
+      let myArray = [nameValue, nameLvalue, end, stateValue, cid, passValue];
 
-      console.log(nValue, lValue, endValue, sValue, cidValue, paValue, paValue2);
+      console.log(myArray);
+      
+
+      //let nValue = [nameValue];
+      //let lValue = [nameLvalue];
+      //let endValue = [end];
+      //let sValue = [stateValue];
+      //let cidValue = [cid];
+      //let paValue = [passValue];
+      //let paValue2 = [passValue2];
+
+      //console.log(nValue, lValue, endValue, sValue, cidValue, paValue, paValue2);
      //alert(nValue,"Registration Successful");
 
      Swal.fire(
@@ -53,6 +59,8 @@ salvarForm.addEventListener ("click", function(event){
       'Registration Successful!',
       'success'
     )
+
+    
       
    } 
 
@@ -67,6 +75,9 @@ form.email.addEventListener('change', function(){
    validEmail(this);
    
 });
+
+
+
 
 
 const validEmail = function (inputEmail){
